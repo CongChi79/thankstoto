@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+table {
+    width:100%;
+    height:1px;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+.number{
+    width:40px;
+}
+th{
+    width:100px;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: #e7e7e7;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+td{
+    width:100px;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+input[type="text"]{
+    padding: 7px;
+    width: 15%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text3"]{
+    padding: 7px;
+    width: 10%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+select{
+    width: 15%;
+    padding: 8px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    background-color: #f1f1f1;
+  }
+img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    background-color: #04AA6D;
+}
+.button2{
+    background-color: darkgrey;
+}
+.button3{
+    background-color:crimson;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.button4{
+    padding: 8px 16px;
+    background-color:cornflowerblue;
+}
+.button5{
+    padding: 5px 16px;
+    color: #fff;
+    background-color: rgb(158, 21, 117);
+}
+.button5{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:brown;
+}
+.button6{
+    padding: 5px 5px;
+    color: #fff;
+    background-color: rgb(0, 64, 160);
+}
+.button7{
+    padding: 8px 8px;
+    color: #333;
+    background-color:gold;
+}
+.button8{
+    background-color:#04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button9{
+    padding: 8px 16px;
+    background-color:chocolate;
+}
+.button10{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:brown;
+}
+.button11{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:#04AA6D;
+}
+#container{
+    width: 100%;
+    margin:0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+#container_member {
+    width: 100%;
+    margin:0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+#container_goods {
+    width: 100%;
+    margin:0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+}
+#container > div {
+    width: 100%;
+    height: 40px;
+  }
+#container_member > div {
+    width: 100%;
+    height: 40px;
+}
+#container_goods > div {
+    width: 100%;
+    height: 48px;
+}
+.align2{
+    width: 100%;
+    margin:0 auto;
+    margin-top: 3px;
+    padding: 3px;
+    text-align: center;
+    background-color: #fff;
+}
+.align3{
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top: 3px;
+    padding: 3px;
+    text-align: center;
+    background-color: #fff;
+}
+.paging{
+    text-align: center;
+    width:100%;
+}
+.paging li{
+    display: inline;
+}
+.paging li a{
+    color: black;
+    text-decoration: none;
+}
+.paging li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+/* 스마트폰 세로 */
+@media only screen and (min-device-width : 381px) and (max-device-width :  480px){
+}
+
+/* 스마트폰 가로+세로 */
+@media only screen and (min-device-width : 320px) and (max-device-width :  380px){
+}
+
+/* 스마트폰 세로 */
+@media only screen and (max-width : 320px){
+}
+
+/* 갤럭시 폴드 세로 */
+@media only screen and (max-width : 280px){
+}
+
+/* iPhone4와 같은 높은 크기 세로 */
+@media 
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+}
+
+/* 서페이스 듀오 세로 */
+@media only screen and (max-width : 540px){
+    #container {
+        grid-template-columns: 1% 61% 38%;
+    }
+    #container_member {
+        grid-template-columns: 30% 50% 20%;
+    }
+    #container_goods {
+        grid-template-columns: 40% 20% 40%;
+    }
+    table {
+        font-size: 12px;
+    }
+    input[type="text"]{
+        padding: 3px;
+         width: 20%;
+         font-size: 12px;
+    }
+    input[type="text3"]{
+        padding: 3px;
+        width: 15%;
+        font-size: 12px;
+    }
+    select{
+        padding: 3px;
+        width: 30%;
+        font-size: 12px;
+    }
+    .button1 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button2 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button3 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button7 {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+    .button8 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .button9 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .button10 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .button11 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+}
+/* iPad 가로+세로 */
+@media only screen and (max-width : 768px) {
+    table {
+        width:100%;
+        font-size: 12px;
+    }
+    #container {
+        width:100%;
+        grid-template-columns: 11% 41% 48%;
+    }
+    #container_member {
+        width:100%;
+        grid-template-columns: 30% 50% 20%;
+    }
+    input[type="text"]{
+        padding: 3px;
+         width: 20%;
+         font-size: 12px;
+    }
+    input[type="text3"]{
+        padding: 3px;
+        width: 15%;
+        font-size: 12px;
+    }
+    select{
+        padding: 3px;
+        width: 15%;
+        font-size: 12px;
+    }
+    .button1 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button2 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button3 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button7 {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    .button8 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .button9 {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .button10 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button11 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+/* iPad 가로+세로 */
+@media only screen and (max-device-width : 1024px) {
+    table {
+        width:100%;
+        font-size: 12px;
+    }
+    #container {
+        grid-template-columns: 20% 45% 35%;
+    }
+    #container_member {
+        grid-template-columns: 30% 50% 20%;
+    }
+    .button1 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button2 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button3 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .button4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button8 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button9 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button10 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button11 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px){
+    table {
+        width:100%;
+        font-size: 14px;
+    }
+    #container {
+        grid-template-columns: 33% 33% 33%;
+    }
+    #container_member {
+        grid-template-columns: 33% 33% 33%;
+    }
+    #container_goods {
+        grid-template-columns: 33% 33% 33%;
+    }
+}

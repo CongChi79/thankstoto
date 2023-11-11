@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+body {
+    font-family: Sandoll GothicNeo1 TTF;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #341F18;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    height: 510px;
+    text-align: center;
+    vertical-align: middle;
+}
+.container ul {
+    margin: 0;
+    padding: 0;
+}
+.container li {
+    padding: 5px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #341F18;
+}
+.bottom {
+    height: 80px;
+    vertical-align: bottom;
+}
+.t {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table {
+    margin: 0;
+    padding: 3px;
+    border-top: 1px solid #d4cbc9;
+    font-weight: 400;
+    font-size: 11px;
+    color: #341F18
+}
+td{
+    padding: 3px;
+    text-align: left;
+}
+.homemenu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homemenu ul {
+    margin: 0 auto;
+    padding: 0;
+}
+.homemenu li{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    list-style-type: none;
+    font-size: 12px;
+}
+.checkin {
+    margin-top: -50px;
+    padding: 0;
+    font-size: 13px;
+    color: #341F18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking {
+    margin-top: -20px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #341F18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking_fin {
+    margin-top: 30px;
+    padding: 0;
+    font-size: 13px;
+    color: #341F18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 스마트폰 가로+세로 */
+@media only screen and (min-device-width : 320px) and (max-device-width :  480px){
+
+}
+
+/* 스마트폰 가로 */
+@media only screen and (min-device-width : 321px){
+    body {
+        width: 100%;
+      }
+    .container {
+        margin: 0;
+        padding: 0;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homemenu {
+        height: 80px;
+    }
+}
+
+/* 스마트폰 세로 */
+@media only screen and (min-device-width : 320px){
+
+}
+
+/* 갤럭시 폴드 세로 */
+@media only screen and (max-width : 280px){
+    body {
+        width: 100%;
+      }
+    .container {
+        margin: 0;
+        padding: 0;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homemenu {
+        height: 80px;
+    }
+    .homemenu li{
+        padding-left: 2px;
+        padding-right: 2px;
+        display: inline-block;
+        list-style-type: none;
+        font-size: 12px;
+    }
+    table {
+        font-size: 8px;
+    }
+}
+
+/* iPhone4와 같은 높은 크기 세로 */
+@media 
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}
+
+/* iPhone4와 같은 높은 해상도 가로 */
+@media only screen and (min-width : 640px){
+
+}
+
+/* iPad 가로+세로 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px){
+
+}
+
+

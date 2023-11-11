@@ -1,0 +1,171 @@
+body {margin:0;font-family:Arial}
+
+h3{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+.topnav {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4px 4px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.header {
+  margin-top: 50px;
+  padding: 0;
+  text-align: center;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.login {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height:160px;
+  color: #333;
+  font-size: 14px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+.login ul {
+  list-style-type: none;
+}
+.login li {
+  padding: 5px;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 50%;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  background-color: #f6f6f6;
+}
+input[type="password"] {
+  padding: 5px;
+  width: 50%;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  background-color: #f6f6f6;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 10px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:4px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3f3f3f;
+}
+
+/* 스마트폰 세로 */
+@media only screen and (min-device-width : 381px) and (max-device-width :  480px){
+}
+
+/* 스마트폰 가로+세로 */
+@media only screen and (min-device-width : 320px) and (max-device-width :  380px){
+}
+
+/* 스마트폰 세로 */
+@media only screen and (max-width : 320px){
+}
+
+/* 갤럭시 폴드 세로 */
+@media only screen and (max-width : 280px){
+}
+
+/* iPhone4와 같은 높은 크기 세로 */
+@media 
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+}
+
+/* 서페이스 듀오 세로 */
+@media only screen and (max-width : 540px){
+  .topnav a {
+    padding: 8px 8px;
+    font-size: 12px;
+  }
+}
+
+/* iPad 가로+세로 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px){
+}

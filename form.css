@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+table{
+    width:100%;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    table-layout: auto;
+    border-collapse: collapse;
+    background-color: #f6f6f6;
+}
+th{
+    width:20%;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: #e7e7e7;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+td{
+    width:80%;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: white;
+    text-align: left;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 920px;
+    display: block;
+}
+#container{
+    width: 920px;
+    margin:0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+    margin-top: 5px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr ;
+}
+#container > div {
+    width: 100%;
+    height: 40px;
+}
+#container_goods {
+    width: 920px;
+    margin:0px auto;
+    display: grid;
+    margin:0px auto;
+    text-align: center;
+    grid-template-columns: 1fr 1fr  1fr ;
+}
+#container_goods > div {
+    width: 100%;
+    height: 40px;
+}
+#container_OTP {
+    width: 920px;
+    margin:0px auto;
+    display: grid;
+    margin:0px auto;
+    text-align: center;
+    grid-template-columns: 1fr 1fr  1fr ;
+}
+#container_OTP > div {
+    width: 100%;
+    height: 40px;
+}
+input[type="txt"]{
+    padding: 7px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text"]{
+    padding: 7px;
+    width: 30%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text1"]{
+    padding: 7px;
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text2"]{
+    padding: 7px;
+    width: 30%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text4"]{
+    padding: 5px;
+    width: 10%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="file"]{
+    border: none;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type="number"]{
+    padding: 7px;
+    width:30%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="tel"]{
+    padding: 7px;
+    width: 30%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+textarea[type="text"] {
+    width: 90%;
+}
+input[type="radio"]{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 14px;
+    color: #341F18;
+    accent-color:#341F18;
+    border: 1px solid #fff;
+    background-color: #f6f6f6;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    background-color: #04AA6D;
+}
+.button2{
+    background-color: darkgrey;
+}
+.button4{
+    padding: 8px 16px;
+    background-color:cornflowerblue;
+}
+.button5{
+    padding: 5px 16px;
+    color: #fff;
+    background-color: rgb(158, 21, 117);
+}
+.button6{
+    padding: 5px 5px;
+    color: #fff;
+    background-color: rgb(0, 64, 160);
+}
+
+.button9{
+    padding: 8px 16px;
+    background-color:chocolate;
+}
+.button10{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:brown;
+}
+.button11{
+    float: right;
+    font-size: 12px;
+    padding: 4px 10px;
+    color: #fff;
+    background-color:#7b04aa;
+}
+.button12{
+    float: right;
+    font-size: 12px;
+    padding: 4px 10px;
+    color: #fff;
+    background-color:#04AA6D;
+}
+
+select{
+  width: 100px;
+  padding: 8px 8px;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  background-color: #f1f1f1;
+}
+textarea{
+    margin-top: 7px;
+    padding: 7px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+    width:720px;
+    height:7em;
+    font-size: 16px;
+    color: #999;
+}
+.txt_name{
+    font-weight:bold;
+    font-size: 16px;
+}
+.txt_R{
+    font-size: 16px;
+}
+.search_container{
+    float: right;
+}
+
+/* 스마트폰 세로 */
+@media only screen and (min-device-width : 381px) and (max-device-width :  480px){
+}
+
+/* 스마트폰 가로+세로 */
+@media only screen and (min-device-width : 320px) and (max-device-width :  380px){
+}
+
+/* 스마트폰 세로 */
+@media only screen and (max-width : 320px){
+}
+
+/* 갤럭시 폴드 세로 */
+@media only screen and (max-width : 280px){
+}
+
+/* iPhone4와 같은 높은 크기 세로 */
+@media 
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+}
+/* 서페이스 듀오 세로 */
+@media only screen and (max-width : 540px){
+    form {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    table {
+        font-size: 12px;
+    }
+    .txt_name {
+        font-size: 12px;
+    }
+    #container{
+        width: 100%;
+    }
+    #container_goods {
+        width: 100%;
+        grid-template-columns: 45% 15% 40%;
+    }
+    .button1 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button2 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button5 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button9 {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    .button10 {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+}
+
+/* iPad 가로+세로 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    form {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    #container{
+        width: 100%;
+    }
+    #container_goods {
+        width: 100%;
+        grid-template-columns: 45% 15% 40%;
+    }
+    .button1 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button2 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button4 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button5 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button9 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .button10 {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1224px){
+}

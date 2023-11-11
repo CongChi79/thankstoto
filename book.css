@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+table{
+    width:100%;
+    height:1px;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+.number{
+    width:40px;
+}
+th{
+    width:100px;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: #e7e7e7;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+td{
+    width:100px;
+    height:1px;
+    overflow: hidden;
+    visibility: visible;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 5px;
+}
+input[type="text"]{
+    padding: 7px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+input[type="text3"]{
+    padding: 7px;
+    width: 100px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    background-color: #f6f6f6;
+}
+select{
+    width: 100px;
+    padding: 8px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    background-color: #f1f1f1;
+  }
+img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    background-color: #04AA6D;
+}
+.button2{
+    background-color: darkgrey;
+}
+.button3{
+    background-color:crimson;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.button4{
+    padding: 8px 16px;
+    background-color:cornflowerblue;
+}
+.button5{
+    padding: 5px 16px;
+    color: #fff;
+    background-color: rgb(158, 21, 117);
+}
+.button5{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:brown;
+}
+.button6{
+    padding: 5px 5px;
+    color: #fff;
+    background-color: rgb(0, 64, 160);
+}
+.button7{
+    padding: 8px 8px;
+    color: #333;
+    background-color:gold;
+}
+.button8{
+    background-color:#04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button9{
+    padding: 8px 16px;
+    background-color:chocolate;
+}
+.button10{
+    padding: 8px 16px;
+    color: #fff;
+    background-color:brown;
+}
+.align{
+    width: 100%;
+    margin:0px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+    background-color: #fff;
+}
+.align th{
+    position:relative;
+    width: 100%;
+    height:30px;
+    border: 0px;
+    background-color: #fff;
+    z-index: 0;
+}
+.align td{
+    position:relative;
+    margin:0;
+    text-align: center;
+    border-collapse: collapse;
+    border:0px;
+    background-color: #fff;
+    z-index: 1;
+}
+.align2{
+    width: 100%;
+    margin:0 auto;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #fff;
+}
+.align3{
+    width: 100%;
+    margin:0 auto;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #fff;
+}
+.paging{
+    text-align: center;
+    width:100%;
+}
+.paging li{
+    display: inline;
+}
+.paging li a{
+    color: black;
+    text-decoration: none;
+}
+.paging li a:hover{
+    color: red;
+    font-weight: bold;
+}
